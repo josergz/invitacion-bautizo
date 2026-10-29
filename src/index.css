@@ -1,0 +1,24 @@
+@import 'tailwindcss';
+
+/* Tus estilos personalizados o reseteos globales opcionales van aquí abajo */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  background: #fcf8ee;
+  color: #6b5436;
+  scroll-behavior: smooth;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
